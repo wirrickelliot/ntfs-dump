@@ -1,6 +1,6 @@
 # NTFS DUMP
 
-A simple NTFS file system parser. Does not support file records with non-resident attributes. Requires Python 3.
+A simple NTFS file system parser. Does not support file records with non-resident attributes. Limited file signature support. Requires Python 3.
 
 ## Features
 
