@@ -11,7 +11,7 @@ A simple NTFS file system parser. Does not support file records with non-residen
         - The offset in bytes to the NTFS formatted volume
 - Parses the boot sector to determine the location of the master file table (MFT)
 - Parses MFT to locate all files and directories
-- Writes to STDOUT all files on the NTFS volume including at least the following attributes:
+- Writes to STDOUT all files on the NTFS volume including the following attributes:
     - File Name
     - File Path
     - File type (derived from file signature)
